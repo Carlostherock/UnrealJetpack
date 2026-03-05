@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Background circle -->
+    <path
+        android:fillColor="#5D4037"
+        android:pathData="M0,0 L108,0 L108,108 L0,108 Z"/>
+
+    <!-- Guitar body (simplified) -->
+    <path
+        android:fillColor="#FFD54F"
+        android:pathData="M54,30 C42,30 34,40 34,52 C34,64 42,72 54,72 C66,72 74,64 74,52 C74,40 66,30 54,30 Z"/>
+
+    <!-- Sound hole -->
+    <path
+        android:fillColor="#5D4037"
+        android:pathData="M54,46 C50,46 46,49 46,53 C46,57 50,60 54,60 C58,60 62,57 62,53 C62,49 58,46 54,46 Z"/>
+
+    <!-- Guitar neck -->
+    <path
+        android:fillColor="#6D4C41"
+        android:pathData="M50,22 L58,22 L58,34 L50,34 Z"/>
+
+    <!-- Headstock -->
+    <path
+        android:fillColor="#6D4C41"
+        android:pathData="M46,14 L62,14 L62,24 L46,24 Z"/>
+
+    <!-- Strings (3 visible lines) -->
+    <path
+        android:strokeColor="#FFD54F"
+        android:strokeWidth="1.5"
+        android:pathData="M50,22 L50,72"/>
+    <path
+        android:strokeColor="#FFD54F"
+        android:strokeWidth="1.5"
+        android:pathData="M54,22 L54,72"/>
+    <path
+        android:strokeColor="#FFD54F"
+        android:strokeWidth="1.5"
+        android:pathData="M58,22 L58,72"/>
+
+</vector>
