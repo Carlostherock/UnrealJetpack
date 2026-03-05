@@ -1,17 +1,18 @@
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
-    alias(libs.plugins.kotlin.compose)
+    // kotlin.compose is applied via kotlin.android for Kotlin 1.9.x
 }
 
 android {
     namespace = "com.guitarlearning.app"
-    compileSdk = 35
+    compileSdk = 23
+    buildToolsVersion = "29.0.3"
 
     defaultConfig {
         applicationId = "com.guitarlearning.app"
-        minSdk = 26
-        targetSdk = 35
+        minSdk = 21
+        targetSdk = 23
         versionCode = 1
         versionName = "1.0"
 
@@ -36,6 +37,9 @@ android {
     }
     buildFeatures {
         compose = true
+    }
+    composeOptions {
+        kotlinCompilerExtensionVersion = "1.5.14"
     }
 }
 
