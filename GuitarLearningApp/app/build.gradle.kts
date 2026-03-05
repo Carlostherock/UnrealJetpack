@@ -6,13 +6,12 @@ plugins {
 
 android {
     namespace = "com.guitarlearning.app"
-    compileSdk = 23
-    buildToolsVersion = "29.0.3"
+    compileSdk = 35
 
     defaultConfig {
         applicationId = "com.guitarlearning.app"
-        minSdk = 21
-        targetSdk = 23
+        minSdk = 26
+        targetSdk = 35
         versionCode = 1
         versionName = "1.0"
 
